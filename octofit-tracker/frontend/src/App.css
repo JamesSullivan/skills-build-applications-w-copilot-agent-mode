@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text */
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Bootstrap primary blue for headings */
+}
+
+a {
+  color: #007bff; /* Bootstrap primary blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Menu */
+.navbar {
+  background-color: #343a40; /* Dark gray background */
+}
+
+.navbar-brand {
+  color: #ffffff; /* White text for brand */
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 40px; /* Adjust logo size */
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* White text for links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Yellow on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff; /* White table background */
+}
+
+.table thead {
+  background-color: #007bff; /* Bootstrap primary blue for table headers */
+  color: #ffffff; /* White text for headers */
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Buttons */
+.btn {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.card {
+  border: 1px solid #007bff; /* Blue border for cards */
+  border-radius: 8px;
+}
+
+.card-header {
+  background-color: #007bff; /* Blue header */
+  color: #ffffff; /* White text */
+}
+
+.card-body {
+  background-color: #ffffff; /* White body */
+}
+
+/* Modals */
+.modal-header {
+  background-color: #007bff; /* Blue header */
+  color: #ffffff; /* White text */
+}
+
+.modal-footer .btn {
+  background-color: #007bff; /* Blue buttons */
+  color: #ffffff;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Favicon */
+.favicon {
+  height: 16px;
+  width: 16px;
+}
